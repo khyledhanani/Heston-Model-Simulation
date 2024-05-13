@@ -2,7 +2,8 @@
 
 ## Overview
 This repository contains Python scripts and a Jupyter notebook for simulating stock prices using the Heston model and 
-calculating implied volatilities from the simulated data. The Heston model is a stochastic volatility model that can describe the evolution of stock prices with a stochastic volatility component differnet to Black Scholes which assumes constant volatility. 
+calculating implied volatilities from the simulated data. The Heston model is a stochastic volatility model used primarily to price options. It assumes that an asset's volatility is not constant but follows a stochastic process, specifically a mean-reverting square-root process. This allows the model to capture the observed market phenomena where volatility changes over time and is correlated with the asset's price.
+
 
 ### Model Dynamics
 The Heston model specifies the following dynamics for the asset price $\(S(t)\)$ and variance $\(v(t)\)$:
